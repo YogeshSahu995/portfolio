@@ -19,7 +19,7 @@ export function Header() {
 
     return (
         <div
-            className="sticky top-0 z-[9999] h-[15vh] w-[100%] md:bg-[#0e0e0e70] md:backdrop-blur-md"
+            className="sticky top-0 z-[9999] h-[10vh] md:h-[15vh] w-[100%] md:bg-[#0e0e0e70] md:backdrop-blur-md"
         >
             <div className="absolute top-0 left-0 w-full h-full ">
                 <nav
@@ -34,7 +34,7 @@ export function Header() {
                                 to={item.slug}
                                 smooth={true}
                                 duration={500}
-                                offset={-35}
+                                offset={-110}
                                 spy={true}
                                 key={item.name}
                                 onClick={() => setIsHidden(true)} // Update active section

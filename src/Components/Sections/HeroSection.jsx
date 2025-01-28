@@ -15,7 +15,7 @@ export function HeroSection() {
     return (
         <Container
             id="home"
-            className="h-fit md:h-[80vh] grid md:grid-cols-2">
+            className="h-fit md:h-[80vh] gap-7 md:gap-0 grid md:grid-cols-2">
             <div
                 className="order-2 md:order-1 h-full w-full flex items-center text-center gap-4 md:mt-[15vh] flex-col">
                 <div
@@ -43,7 +43,7 @@ export function HeroSection() {
             <div
                 className="order-1 md:order-2 bg-[#0e0e0e] col before:hidden md:before:block  md:bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] imagedesign">
                 <div
-                    className="h-[45vw] w-[45vw] bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] rounded-full md:h-full md:w-fit mx-auto">
+                    className="h-[60vw] w-[60vw] bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] rounded-full md:h-full md:w-fit mx-auto">
                     <img
                         src="./images/forPortfolio.png"
                         className="h-full w-fit object-cover object-center mx-auto"
