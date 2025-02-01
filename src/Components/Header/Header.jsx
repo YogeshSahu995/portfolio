@@ -34,12 +34,12 @@ export function Header() {
                                 to={item.slug}
                                 smooth={true}
                                 duration={500}
-                                offset={-110}
+                                offset={-120}
                                 spy={true}
                                 key={item.name}
                                 onClick={() => setIsHidden(true)} // Update active section
                                 onSetActive={() => setActiveSection(item.slug)}
-                                className={`relative cursor-pointer  text-[18px] tracking-wider ${activeSection === item.slug
+                                className={`relative cursor-pointer  text-[20px] tracking-wider ${activeSection === item.slug
                                     ? "text-[#c7ce00]"
                                     : "text-[#fffeb2] hover:text-[#c7ce00]"
                                     }`}

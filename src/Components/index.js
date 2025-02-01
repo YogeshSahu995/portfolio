@@ -1,7 +1,7 @@
 import { Header } from "./Header/Header";
 import { Footer } from "./Footer/Footer";
 import { HeroSection, AboutSection, SkillSection, ProjectSection, ContactSection } from "./Sections/index";
-import { Button, Container, BigHeading, SkillCard, Input } from "./SmallComponent";
+import { Button, Container, BigHeading, SkillCard, Input, Loader, Carousel } from "./SmallComponent";
 
 export {
     Header,
@@ -15,5 +15,7 @@ export {
     BigHeading,
     SkillCard,
     Input,
-    Footer
+    Footer,
+    Loader,
+    Carousel
 }
