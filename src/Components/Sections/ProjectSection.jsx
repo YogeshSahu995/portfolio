@@ -64,14 +64,18 @@ export function ProjectSection() {
                             }
                         </Carousel>
                         <div className="flex justify-between w-full md:w-[50vw] mx-auto my-4">
-                            <Button
-                                value="Demo"
-                                icon={<i className="ri-arrow-right-up-line"></i>}
-                            />
-                            <Button
-                                value="Source"
-                                icon={<i className="ri-arrow-right-up-line"></i>}
-                            />
+                            <a href="https://zippytube.netlify.app" target="_blank">
+                                <Button
+                                    value="Demo"
+                                    icon={<i className="ri-arrow-right-up-line"></i>}
+                                />
+                            </a>
+                            <a href="https://github.com/YogeshSahu995/youtube-clone-frontend" target="_blank">
+                                <Button
+                                    value="Source"
+                                    icon={<i className="ri-arrow-right-up-line"></i>}
+                                />
+                            </a>
                         </div>
                         <div className="flex flex-col items-center justify-around gap-3 mt-3 border p-2 rounded bg-[#00000049]">
                             <div className="flex gap-4 flex-wrap justify-center items-center">
