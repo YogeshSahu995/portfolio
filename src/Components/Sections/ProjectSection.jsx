@@ -59,7 +59,12 @@ export function ProjectSection() {
                         <Carousel>
                             {
                                 slides.map((e) => (
-                                    <img src={e.imageurl} key={e.name}/>
+                                    <img 
+                                        src={e.imageurl} 
+                                        key={e.name}
+                                        alt={e.name}
+                                        loading="lazy"
+                                    />
                                 ))
                             }
                         </Carousel>
@@ -70,7 +75,7 @@ export function ProjectSection() {
                                     icon={<i className="ri-arrow-right-up-line"></i>}
                                 />
                             </a>
-                            <a href="https://github.com/YogeshSahu995/youtube-clone-frontend" target="_blank">
+                            <a href="https://github.com/YogeshSahu995/youtube-clone-backend" target="_blank">
                                 <Button
                                     value="Source"
                                     icon={<i className="ri-arrow-right-up-line"></i>}

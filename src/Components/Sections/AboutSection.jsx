@@ -14,6 +14,8 @@ export function AboutSection() {
                 <div>
                     <img 
                         src="./images/illustratorOfCoding.png" 
+                        alt="illustrator of coder"
+                        loading="lazy"
                         className="h-[30vh] md:h-[35vh] lg:h-[45vh] xl:h-[50vh] w-fit mx-auto object-cover object-center SideImage"
                     />
                 </div>

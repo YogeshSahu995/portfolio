@@ -24,6 +24,8 @@ export function HeroSection() {
                         className="text-[#c7ce00] text-[5vh] sm:text-[8vw] md:text-[6vw] xl:text-[5.5vw] font-semibold montserrat whitespace-nowrap "> Yogesh Kumar</h1>
                     <img
                         src="./images/lenShine.png"
+                        alt="lensshine"
+                        loading="lazy"
                         className="absolute bottom-0 right-0 h-[10vw] w-fit object-cover object-center"
                     />
                 </div>
@@ -46,6 +48,8 @@ export function HeroSection() {
                     className="h-[60vw] w-[60vw] bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] rounded-full md:h-full md:w-fit mx-auto">
                     <img
                         src="./images/forPortfolio.png"
+                        alt= "main image"
+                        loading="lazy"
                         className="h-full w-fit object-cover object-center mx-auto"
                     />
                 </div>

@@ -2,7 +2,7 @@ import { BigHeading, Container, Button, Input, Loader } from "../index"
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { useRef } from "react";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 export function ContactSection() {
     const [loading, setLoading] = useState(false)
@@ -34,7 +34,6 @@ export function ContactSection() {
     }
     return (
         <Container id="contact" className="text-center">
-            <Toaster />
             <div className="headingBg">
                 <BigHeading
                     content="CONTACT"
