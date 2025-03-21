@@ -9,7 +9,7 @@ export function HeroSection() {
             setProfession(prev => !prev)
         }, 2000)
 
-        return() => clearInterval(interval)
+        return () => clearInterval(interval)
     }, [])
 
     return (
@@ -32,15 +32,17 @@ export function HeroSection() {
                 <div>
                     <p className=" leading-[4vw] text-[5vw] sm:text-[5.5vw] md:text-[3vw]">I am
                         <span className="text-[#c7ce00] transition-all ease-linear duration-200">
-                            {profession? " Mern Stack Developer": " Web Developer"}
+                            {profession ? " Mern Stack Developer" : " Web Developer"}
                         </span>
                     </p>
                 </div>
-                <Button
-                    value=" Download CV"
-                    className="montserrat"
-                    icon={<i className="ri-download-line font-semibold"></i>}
-                />
+                <a href="/resume.pdf" download="Yogesh_Resume.pdf">
+                    <Button
+                        value=" Download CV"
+                        className="montserrat"
+                        icon={<i className="ri-download-line font-semibold"></i>}
+                    />
+                </a>
             </div>
             <div
                 className="order-1 md:order-2 bg-[#0e0e0e] col before:hidden md:before:block  md:bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] imagedesign">
@@ -48,7 +50,7 @@ export function HeroSection() {
                     className="h-[60vw] w-[60vw] bg-gradient-to-b from-[#c7ce00] to-[#0e0e0e] rounded-full md:h-full md:w-fit mx-auto">
                     <img
                         src="./images/forPortfolio.png"
-                        alt= "main image"
+                        alt="main image"
                         loading="lazy"
                         className="h-full w-fit object-cover object-center mx-auto"
                     />

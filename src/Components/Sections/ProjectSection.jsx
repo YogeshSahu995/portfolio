@@ -71,7 +71,7 @@ export function ProjectSection() {
                         <div className="flex justify-between w-full md:w-[50vw] mx-auto my-4">
                             <a href="https://zippytube.netlify.app" target="_blank">
                                 <Button
-                                    value="Demo"
+                                    value="Live Link"
                                     icon={<i className="ri-arrow-right-up-line"></i>}
                                 />
                             </a>
