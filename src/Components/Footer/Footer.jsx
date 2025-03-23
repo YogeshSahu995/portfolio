@@ -3,21 +3,21 @@ import { Logo } from "../Header/Logo";
 export function Footer(){
     const otherLinks = [
         {
-            icon :"ri-instagram-fill",
-            slug : "https://www.instagram.com/im_yogesh_sahu_18?igsh=MTk0MmduM2Zka2xrOQ==",
-        },
-        {
             icon : "ri-github-fill",
             slug : "https://github.com/yogeshSahu995",
         },
         {
             icon : "ri-linkedin-box-fill",
-            slug : "https://www.linkedin.com/in/yogesh-kumar-8b9122301/",
+            slug : "linkedin.com/in/yogesh-sahu-8b9122301",
         },
         {
             icon : "ri-mail-line",
             slug : "mailto:1413002yogesh10206@gmail.com?subject=Hello Yogesh&body=I wanted to connect with you.",
-        }
+        },
+        {
+            icon :"ri-instagram-fill",
+            slug : "https://www.instagram.com/im_yogesh_sahu_18?igsh=MTk0MmduM2Zka2xrOQ==",
+        },
     ]
     return(
         <footer className="flex flex-col gap-4 w-full p-10 text-black font-medium text-center">
